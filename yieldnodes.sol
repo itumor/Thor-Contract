@@ -2213,7 +2213,7 @@ contract NODERewardManagement {
 
 pragma solidity ^0.8.0;
 
-contract ThorV2 is ERC20, Ownable, PaymentSplitter {
+contract Yieldnodes is ERC20, Ownable, PaymentSplitter {
     using SafeMath for uint256;
 
     NODERewardManagement public nodeRewardManager;
@@ -2267,7 +2267,7 @@ contract ThorV2 is ERC20, Ownable, PaymentSplitter {
         uint256[] memory fees,
         uint256 swapAmount,
         address uniV2Router
-    ) ERC20("THOR v2", "THOR") PaymentSplitter(payees, shares) {
+    ) ERC20("YIELDNODES", "YIN") PaymentSplitter(payees, shares) {
 
         futurUsePool = addresses[4];
         distributionPool = addresses[5];
