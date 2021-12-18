@@ -2267,7 +2267,7 @@ contract Yieldnodes is ERC20, Ownable, PaymentSplitter {
         uint256[] memory fees,
         uint256 swapAmount,
         address uniV2Router
-    ) ERC20("YIELDNODES", "YIN") PaymentSplitter(payees, shares) {
+    ) ERC20("YIELDNODES", "YNS") PaymentSplitter(payees, shares) {
 
         futurUsePool = addresses[4];
         distributionPool = addresses[5];
